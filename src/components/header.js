@@ -3,7 +3,7 @@ import React from 'react';
 import {Text, View} from 'react-native';
 
 
-// make component
+// make component (functional component)
 const Header = (props) => {
 	const {textStyle, viewStyle} = styles;
 
