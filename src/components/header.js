@@ -1,11 +1,11 @@
 // import libraries
 import React from 'react';
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 
 
 // make component (functional component)
 const Header = (props) => {
-	const {textStyle, viewStyle} = styles;
+	const { textStyle, viewStyle } = styles;
 
 	return (
 		<View style={viewStyle}>
@@ -28,9 +28,7 @@ const styles = {
 		},
 		shadowOpacity: 0.2,
 		elevation: 2,
-		position: 'relative',
-		elevation: 2,
-		position: 'relative'  
+		position: 'relative'
 	},
 	textStyle: {
 		fontSize: 20
